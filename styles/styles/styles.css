@@ -1,0 +1,87 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-fill-color: brown;
+    background-color: aqua;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px 0px 5px 0px;
+}
+
+.add-btn {
+    background-color: gold;
+    margin-left: 10%;
+    border-radius: 10px;
+    -webkit-text-fill-color: brown;
+}
+
+.theme {
+    text-align: center;
+    margin-left: 20%;
+}
+
+.task {
+    margin: 10px 10px 10px 30px;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.task-name {
+    text-align: center;
+    padding: 5px;
+    -webkit-text-fill-color: blueviolet;
+    background-color:chartreuse
+}
+
+.button {
+    background-color: red;
+    border-radius: 15px;
+    -webkit-text-fill-color: white;
+    margin: 15px 5% 15px 80%;
+    border-color: transparent;
+}
+
+.done {
+    background-color: green;
+    border-radius: 5px;
+    width: max-content;
+    -webkit-text-fill-color: white;
+    margin: 15px 0px 10px 15px;
+}
+
+.in-work {
+    background-color: orange;
+    border-radius: 5px;
+    width: max-content;
+    -webkit-text-fill-color: white;
+    margin: 15px 0px 10px 15px;
+}
+
+.description {
+    margin-left: 15px;
+    -webkit-text-fill-color: black;
+}
+
+.form {
+    text-align: center;
+}
+
+.name-input {
+    text-align: center;
+    width: 300px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.desc-input {
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+}
