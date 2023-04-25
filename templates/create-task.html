@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles/styles.css">
+    <link rel="icon"  href="https://vectorified.com/images/task-manager-icon-5.jpg">
+    <title>Трекер задач</title>
+</head>
+<body>
+    <header>
+        <p class="header"> Добавление задачи </p>
+    </header>
+    <form action="/create-task", method="post" class="form">
+        <br><input class="name-input" name="task-name" placeholder="Название задачи">
+        <br><input class="desc-input" name="task-desc" placeholder="Полное описание задачи">
+        <br><button type="submit" class="done">Добавить задачу</button><br>
+    </form>
+</body>
+</html>
